@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebDriver;
-import pages.Project04Page;
+import pages.TechGlobalProject4Page;
 import utils.Driver;
 
 import java.util.List;
@@ -18,12 +18,12 @@ import java.util.NoSuchElementException;
 public class TechGlobalProject4Steps {
 
     WebDriver driver;
-    Project04Page project04Page;
+    TechGlobalProject4Page project04Page;
 
     @Before
     public void setDriver() {
         driver = Driver.getDriver();
-        project04Page = new Project04Page();
+        project04Page = new TechGlobalProject4Page();
     }
 
     //                          Task01

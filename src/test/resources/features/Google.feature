@@ -5,8 +5,7 @@ Feature: Google search functionality
     When user search for "<input>"
     Then user should see "<input>" in the url
     And user should see "<input>" in the title
-
-    Example:
+  Examples:
     | input |
     | Tesla |
     | Apple |
